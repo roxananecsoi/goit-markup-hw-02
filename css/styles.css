@@ -11,6 +11,8 @@
 
 body {
   font-family: var(--text-font-family);
+  color: var(--contacts-color);
+  background-color: var(--white-color);
 }
 
 .logo {
@@ -19,17 +21,26 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.logo-studio {
+.link {
+  text-decoration: none;
+}
+
+.logo-studio-dark {
   color: var(--text-color);
+}
+
+.logo-studio-light {
+  color: var(--footer-text-color);
 }
 
 .nav-items {
   color: var(--text-color);
+  list-style: none;
 }
 
 .nav-items:hover,
@@ -52,7 +63,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
 }
@@ -67,13 +78,13 @@ button:focus {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
 .app-category {
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -81,12 +92,78 @@ button:focus {
   background-color: var(--text-color);
   color: var(--footer-text-color);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
 .footer-logo {
   color: var(--footer-text-color);
+}
+
+.main-section {
+  background-color: var(--text-color);
+  color: var(--white-color);
+}
+
+.main-section-header {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.main-section-button {
+  background-color: var(--logo-web-button-color);
+  color: var(--white-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.main-section-button:hover,
+.main-section-button:focus {
+  cursor: pointer;
+}
+
+.first-section-header {
+  color: var(--text-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.first-section-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.section-header {
+  color: var(--text-color);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.name-person {
+  color: var(--text-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.name-job {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
