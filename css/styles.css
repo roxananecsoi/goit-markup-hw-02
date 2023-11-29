@@ -38,22 +38,36 @@ body {
   color: var(--footer-text-color);
 }
 
-.nav-items {
-  color: var(--text-color);
+.list {
   list-style: none;
 }
 
-.nav-items:hover,
-.nav-items:focus {
-  color: var(--logo-web-button-color);
+.nav-list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.nav-list:hover,
+.nav-list:focus {
+  color: var(--button-color);
 }
 
 .contact {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--contacts-color);
+}
+.list-contact {
   color: var(--contacts-color);
 }
 
-.contact:hover,
-.contact:focus {
+.list-contact:hover,
+.list-contact:focus {
   color: var(--logo-web-button-color);
 }
 
@@ -110,12 +124,15 @@ button:focus {
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
 }
 
 .main-section-button {
   background-color: var(--logo-web-button-color);
   color: var(--white-color);
+  font-family: var(--text-font-family);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -126,6 +143,7 @@ button:focus {
 .main-section-button:hover,
 .main-section-button:focus {
   cursor: pointer;
+  background-color: var();
 }
 
 .first-section-header {
@@ -148,18 +166,23 @@ button:focus {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
+.third-section {
+  background-color: var(--footer-text-color);
+}
 .name-person {
   color: var(--text-color);
+  background-color: var(--white-color);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .name-job {
