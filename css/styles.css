@@ -9,8 +9,15 @@
   --white-color: #ffffff;
 }
 
+<<<<<<< Updated upstream
 body {
   font-family: var(--text-font-family);
+=======
+.body {
+  background-color: #fff;
+  color: var(--text-color);
+  font-family: Roboto;
+>>>>>>> Stashed changes
 }
 
 .logo {
