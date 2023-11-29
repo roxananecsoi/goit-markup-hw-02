@@ -1,24 +1,25 @@
 :root {
   --logo-web-button-color: #4d5ae5;
+  --button-color: #404bbf;
   --text-color: #2e2f42;
   --contacts-color: #434455;
   --footer-text-color: #f4f4fd;
+  --text-font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
+  --white-color: #ffffff;
 }
 
-.body {
-  background-color: #fff;
-  color: var(--text-color);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+body {
+  font-family: var(--text-font-family);
 }
 
 .logo {
   color: var(--logo-web-button-color);
-  font-family: Raleway;
+  font-family: var(--logo-font-family);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: multiplicator;
+  line-height: 116.667%;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -47,46 +48,42 @@
 
 .button {
   color: var(--logo-web-button-color);
-  background-color: #f4f4fd;
-  font-family: Roboto;
+  background-color: var(--footer-text-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: multiplicator;
+  line-height: 150%;
   letter-spacing: 0.64px;
   cursor: pointer;
 }
 
 .button:hover,
 button:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--white-color);
+  background-color: var(--button-color);
 }
 
 .name-app {
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: multiplicator;
+  line-height: 120%;
   letter-spacing: 0.4px;
 }
 
 .app-category {
-  font-family: Roboto;
   font-size: 16px;
-  line-height: multiplicator;
+  line-height: 150%;
   letter-spacing: 0.32px;
 }
 
 .footer {
   background-color: var(--text-color);
   color: var(--footer-text-color);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: multiplicator;
+  line-height: 150%;
   letter-spacing: 0.32px;
 }
 
