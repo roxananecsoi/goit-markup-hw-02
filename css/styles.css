@@ -83,23 +83,23 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--white-color);
+  color: #ffffff;
 }
 
 .main-section-button {
-  background-color: var(--logo-web-button-color);
-  color: var(--white-color);
+  background-color: #4d5ae5;
+  color: #ffffff;
   font-family: var(--text-font-family);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
 .main-section-button:hover,
 .main-section-button:focus {
-  cursor: pointer;
   background-color: #404bbf;
 }
 
@@ -138,7 +138,7 @@ body {
 }
 
 .third-section {
-  background-color: var(--footer-text-color);
+  background-color: #ffffffff;
 }
 .name-person {
   color: #2e2f42;
@@ -178,6 +178,7 @@ body {
 .button {
   color: #4d5ae5;
   background-color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
