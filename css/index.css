@@ -15,6 +15,10 @@ body {
   background-color: var(--white-color);
 }
 
+.list {
+  list-style: none;
+}
+
 .logo {
   color: var(--logo-web-button-color);
   font-family: var(--logo-font-family);
@@ -38,10 +42,6 @@ body {
   color: var(--footer-text-color);
 }
 
-.list {
-  list-style: none;
-}
-
 .nav-list {
   font-weight: 500;
   font-size: 16px;
@@ -61,6 +61,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--contacts-color);
 }
+
 .list-contact {
   color: var(--contacts-color);
 }
@@ -68,49 +69,6 @@ body {
 .list-contact:hover,
 .list-contact:focus {
   color: var(--logo-web-button-color);
-}
-
-.button {
-  color: var(--logo-web-button-color);
-  background-color: var(--footer-text-color);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-  cursor: pointer;
-}
-
-.button:hover,
-button:focus {
-  color: var(--white-color);
-  background-color: var(--button-color);
-}
-
-.name-app {
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
-
-.app-category {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
-.footer {
-  background-color: var(--text-color);
-  color: var(--footer-text-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
-.footer-logo {
-  color: var(--footer-text-color);
 }
 
 .main-section {
@@ -188,4 +146,23 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.footer {
+  background-color: var(--text-color);
+  color: var(--footer-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-logo {
+  color: var(--footer-text-color);
+}
+
+.footer-paragraph {
+  color: var(--footer-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }

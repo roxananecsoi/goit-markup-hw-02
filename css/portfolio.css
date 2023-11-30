@@ -1,0 +1,118 @@
+:root {
+  --logo-web-button-color: #4d5ae5;
+  --button-color: #404bbf;
+  --text-color: #2e2f42;
+  --contacts-color: #434455;
+  --footer-text-color: #f4f4fd;
+  --text-font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: var(--text-font-family);
+  color: var(--contacts-color);
+  background-color: var(--white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--logo-web-button-color);
+  font-family: var(--logo-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo-studio-dark {
+  color: var(--text-color);
+}
+
+.logo-studio-light {
+  color: var(--footer-text-color);
+}
+
+.nav-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.nav-list:hover,
+.nav-list:focus {
+  color: var(--button-color);
+}
+
+.contact {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--contacts-color);
+}
+
+.list-contact:hover,
+.list-contact:focus {
+  color: var(--logo-web-button-color);
+}
+
+.button {
+  color: var(--logo-web-button-color);
+  background-color: var(--footer-text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--button-color);
+}
+
+.name-app {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.app-category {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.footer {
+  background-color: var(--text-color);
+  color: var(--footer-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-logo {
+  color: var(--footer-text-color);
+}
+
+.footer-paragraph {
+  color: var(--footer-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
