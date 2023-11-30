@@ -52,7 +52,7 @@ body {
 
 .nav-list:hover,
 .nav-list:focus {
-  color: var(--button-color);
+  color: #404bbf;
 }
 
 .contact {
@@ -68,7 +68,7 @@ body {
 
 .list-contact:hover,
 .list-contact:focus {
-  color: var(--logo-web-button-color);
+  color: #404bbf;
 }
 
 .main-section {
@@ -165,4 +165,35 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.button {
+  color: var(--logo-web-button-color);
+  background-color: var(--footer-text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--button-color);
+}
+
+.name-app {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.app-category {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
