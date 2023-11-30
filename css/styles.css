@@ -100,7 +100,15 @@ body {
 .main-section-button:hover,
 .main-section-button:focus {
   cursor: pointer;
-  background-color: var();
+  background-color: #404bbf;
+}
+
+.first-section {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .first-section-header {
@@ -133,8 +141,8 @@ body {
   background-color: var(--footer-text-color);
 }
 .name-person {
-  color: var(--text-color);
-  background-color: var(--white-color);
+  color: #2e2f42;
+  background-color: #ffffffff;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -168,20 +176,20 @@ body {
 }
 
 .button {
-  color: var(--logo-web-button-color);
-  background-color: var(--footer-text-color);
+  color: #4d5ae5;
+  background-color: #f4f4fd;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-  color: var(--white-color);
-  background-color: var(--button-color);
+  color: #ffffffff;
+  background-color: #404bbf;
 }
 
 .name-app {
