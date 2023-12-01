@@ -139,7 +139,13 @@ body {
 
 .third-section {
   background-color: #ffffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
+
 .name-person {
   background-color: #ffffffff;
   font-weight: 500;
@@ -193,12 +199,12 @@ body {
 }
 
 .name-app {
-  color: #2e2f42;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  color: #2e2f42;
 }
 
 .app-category {
