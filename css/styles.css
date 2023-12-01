@@ -138,16 +138,15 @@ body {
 }
 
 .third-section {
-  background-color: #f4f4fd;
+  background-color: #ffffffff;
 }
 .name-person {
-  color: #2e2f42;
   background-color: #ffffffff;
-  font-size: 20px;
-  font-style: normal;
   font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .name-job {
@@ -194,6 +193,7 @@ body {
 }
 
 .name-app {
+  color: #2e2f42;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
