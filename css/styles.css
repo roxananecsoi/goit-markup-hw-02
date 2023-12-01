@@ -103,7 +103,7 @@ body {
   background-color: #404bbf;
 }
 
-.second-section {
+.second-section-header {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -111,30 +111,19 @@ body {
   color: #ffffff;
 }
 
-.second-section-header {
-  color: var(--text-color);
+.section-header {
+  color: #2e2f42;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
-.second-section-paragraph {
+.section-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-}
-
-.section-header {
-  color: var(--text-color);
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 .fourth-section {
@@ -153,22 +142,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.name-person {
-  background-color: #ffffffff;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.name-job {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
 }
 
 .footer {
